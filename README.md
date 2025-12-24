@@ -1,73 +1,66 @@
-# Welcome to your Lovable project
+Garuda
 
-## Project info
+Robust Image Enhancement and Object Detection Under Adverse Conditions
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Overview
 
-## How can I edit this code?
+Sentinel-Vision is a computer vision system designed to enhance visual perception and improve object detection accuracy under challenging environmental conditions such as fog, rain, snow, and low-light scenarios. The project focuses on improving surveillance and monitoring reliability by combining advanced image enhancement techniques with lightweight real-time object detection models.
 
-There are several ways of editing your application.
+Problem Statement
 
-**Use Lovable**
+Image-based surveillance systems often fail under adverse weather and poor lighting conditions due to reduced visibility, contrast degradation, and loss of fine-grained features. These challenges significantly affect real-time monitoring, safety analytics, and automated decision-making systems.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Proposed Solution
 
-Changes made via Lovable will be committed automatically to this repo.
+Sentinel-Vision introduces a two-stage hybrid deep learning pipeline:
 
-**Use your preferred IDE**
+Image Enhancement Stage
+Enhances degraded images by restoring global clarity and fine spatial details to improve visual quality and downstream task performance.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Object Detection Stage
+Uses an optimized, lightweight object detection model for real-time inference on enhanced frames, suitable for edge and resource-constrained environments.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+System Architecture
+Input Image / Video
+        ↓
+Hybrid Image Enhancement Module
+        ↓
+Enhanced Visual Output
+        ↓
+Real-Time Object Detection Engine
+        ↓
+Detected Objects + Confidence Scores
 
-Follow these steps:
+Tech Stack
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Programming Language: Python, TypeScript
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Frontend: React + Vite + Tailwind + shadcn/ui
 
-# Step 3: Install the necessary dependencies.
-npm i
+Deep Learning: PyTorch
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Object Detection: YOLO (lightweight variant)
 
-**Edit a file directly in GitHub**
+Computer Vision: OpenCV
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Deployment Target: Real-time / Edge-ready systems
 
-**Use GitHub Codespaces**
+Key Features
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Robust performance under fog, rain, snow, and low-light
 
-## What technologies are used for this project?
+Lightweight architecture for real-time inference
 
-This project is built with:
+Modular design for enhancement and detection stages
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Scalable for surveillance, traffic monitoring, and smart city use cases
 
-## How can I deploy this project?
+Future Scope
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Adaptive model selection based on environmental conditions
 
-## Can I connect a custom domain to my Lovable project?
+Integration with video analytics pipelines
 
-Yes, you can!
+Edge deployment using TensorRT / ONNX
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Performance benchmarking across diverse weather datasets
