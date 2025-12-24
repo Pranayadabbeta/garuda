@@ -1,4 +1,4 @@
-import { Monitor, Layers, BarChart3, GitBranch, Cpu, Shield } from "lucide-react";
+import { Monitor, Layers, BarChart3, GitBranch, Cpu } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface SidebarProps {
@@ -18,13 +18,10 @@ export function Sidebar({ activeView, onViewChange }: SidebarProps) {
   return (
     <aside className="w-64 h-screen bg-card/50 border-r border-border flex flex-col">
       <div className="p-6 border-b border-border">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-lg bg-primary/20 flex items-center justify-center">
-            <Shield className="w-5 h-5 text-primary" />
-          </div>
+        <div className="flex items-center">
           <div>
-            <h1 className="text-sm font-semibold text-foreground">AWISS</h1>
-            <p className="text-xs text-muted-foreground">Surveillance System</p>
+            <h1 className="text-sm font-semibold text-foreground">Sentinel</h1>
+            <p className="text-xs text-muted-foreground">Operations Dashboard</p>
           </div>
         </div>
       </div>

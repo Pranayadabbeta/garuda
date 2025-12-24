@@ -1,5 +1,12 @@
 Garuda
 
+## Repository Structure
+
+- `frontend/` – UI dashboard built with React, Vite, Tailwind
+- `ml/` – Image enhancement and object detection modules
+- `data/` – Datasets (raw and processed)
+- `docs/` – Architecture and system documentation
+
 Robust Image Enhancement and Object Detection Under Adverse Conditions
 
 Overview

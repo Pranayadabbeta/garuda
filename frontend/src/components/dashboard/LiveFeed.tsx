@@ -6,12 +6,12 @@ export function LiveFeed() {
       <div className="flex items-center justify-between p-4 border-b border-border/50">
         <div className="flex items-center gap-3">
           <Video className="w-4 h-4 text-primary" />
-          <span className="text-sm font-medium">Primary Feed - CAM_01</span>
+          <span className="text-sm font-medium">Sentinel Feed • CAM-01</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="badge-weather">
             <span className="w-1.5 h-1.5 rounded-full bg-accent" />
-            Fog Detected
+            Environment: Fog
           </span>
           <button className="p-1.5 rounded hover:bg-secondary/50 transition-colors">
             <Maximize2 className="w-4 h-4 text-muted-foreground" />
@@ -20,7 +20,7 @@ export function LiveFeed() {
       </div>
 
       <div className="flex-1 relative bg-background/50 overflow-hidden">
-        {/* Simulated video feed with grid overlay */}
+        {/* Visualization overlay grid */}
         <div 
           className="absolute inset-0"
           style={{
@@ -40,7 +40,7 @@ export function LiveFeed() {
           />
         </div>
 
-        {/* Simulated surveillance scene elements */}
+        {/* Scene overlay elements */}
         <div className="absolute inset-4 flex items-center justify-center">
           <div className="relative w-full h-full">
             {/* Vehicle bounding box */}
@@ -72,7 +72,7 @@ export function LiveFeed() {
               </span>
             </div>
 
-            {/* Center camera icon placeholder */}
+            {/* Center camera placeholder */}
             <div className="absolute inset-0 flex items-center justify-center opacity-20">
               <Camera className="w-24 h-24 text-muted-foreground" />
             </div>
@@ -87,7 +87,7 @@ export function LiveFeed() {
               <span className="text-xs font-mono text-muted-foreground">RES: 1920×1080</span>
               <span className="text-xs font-mono text-muted-foreground">LATENCY: 42ms</span>
             </div>
-            <span className="text-xs font-mono text-success">● RECORDING</span>
+            <span className="text-xs font-mono text-success">● STREAMING</span>
           </div>
         </div>
       </div>
