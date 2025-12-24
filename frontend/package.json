@@ -2,7 +2,7 @@
   "name": "garuda",
   "private": true,
   "version": "0.1.0",
-  "description": "Sentinel Vision - real-time detections dashboard",
+  "description": "Garuda - real-time detections dashboard",
   "author": "[Your Team Name]",
   "type": "module",
   "scripts": {

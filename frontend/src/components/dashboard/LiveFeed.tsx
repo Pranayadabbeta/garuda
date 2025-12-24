@@ -6,7 +6,7 @@ export function LiveFeed() {
       <div className="flex items-center justify-between p-4 border-b border-border/50">
         <div className="flex items-center gap-3">
           <Video className="w-4 h-4 text-primary" />
-          <span className="text-sm font-medium">Sentinel Feed • CAM-01</span>
+          <span className="text-sm font-medium">Garuda Feed • CAM-01</span>
         </div>
         <div className="flex items-center gap-2">
           <span className="badge-weather">

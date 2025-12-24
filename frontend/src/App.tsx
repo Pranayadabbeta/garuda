@@ -8,7 +8,7 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-// Sentinel Vision — main app component
+// Garuda — main app component
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>

@@ -1,4 +1,4 @@
-// Sentinel Vision — maintained by [Your Team Name]
+// Garuda — maintained by [Your Team Name]
 // Primary entry point
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";

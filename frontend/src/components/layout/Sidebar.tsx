@@ -20,7 +20,7 @@ export function Sidebar({ activeView, onViewChange }: SidebarProps) {
       <div className="p-6 border-b border-border">
         <div className="flex items-center">
           <div>
-            <h1 className="text-sm font-semibold text-foreground">Sentinel</h1>
+            <h1 className="text-sm font-semibold text-foreground">Garuda</h1>
             <p className="text-xs text-muted-foreground">Operations Dashboard</p>
           </div>
         </div>

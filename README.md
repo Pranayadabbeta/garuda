@@ -11,7 +11,7 @@ Robust Image Enhancement and Object Detection Under Adverse Conditions
 
 Overview
 
-Sentinel-Vision is a computer vision system designed to enhance visual perception and improve object detection accuracy under challenging environmental conditions such as fog, rain, snow, and low-light scenarios. The project focuses on improving surveillance and monitoring reliability by combining advanced image enhancement techniques with lightweight real-time object detection models.
+Garuda is a computer vision system designed to enhance visual perception and improve object detection accuracy under challenging environmental conditions such as fog, rain, snow, and low-light scenarios. The project focuses on improving surveillance and monitoring reliability by combining advanced image enhancement techniques with lightweight real-time object detection models.
 
 Problem Statement
 
@@ -19,7 +19,7 @@ Image-based surveillance systems often fail under adverse weather and poor light
 
 Proposed Solution
 
-Sentinel-Vision introduces a two-stage hybrid deep learning pipeline:
+Garuda introduces a two-stage hybrid deep learning pipeline:
 
 Image Enhancement Stage
 Enhances degraded images by restoring global clarity and fine spatial details to improve visual quality and downstream task performance.
