@@ -1,1 +1,0 @@
-# Garuda System Architecture
